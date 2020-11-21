@@ -1,1 +1,1 @@
-export default (number) => String(number);
+export default (number) => number === 3 ? "fizz" : String(number);
