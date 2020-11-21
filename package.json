@@ -8,9 +8,10 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --watchAll"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module"
 }

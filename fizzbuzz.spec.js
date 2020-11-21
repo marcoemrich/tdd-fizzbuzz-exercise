@@ -1,5 +1,10 @@
+import {jest} from '@jest/globals';
+import fizzbuzz from "./fizzbuzz.js";
+
 describe("fizzbuzz", () => {
-  it.todo("returns a number as string for no special cases (1 => 1)");
+  it("returns a number as string for no special cases (1 => 1)", () => {
+    expect(fizzbuzz(1)).toEqual("1");
+  });
   it.todo("returns a fizz for a number that is divisible by 3 (3 => fizz)");
   it.todo("returns a fizz for a number that is divisible by 3 (6 => fizz)");
   it.todo("returns a buzz for a number that is divisible by 5 (5 => buzz)");
