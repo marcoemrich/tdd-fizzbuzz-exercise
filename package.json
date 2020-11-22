@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
+  "devDependencies": {
+    "@types/jest": "^26.0.15",
     "jest": "^26.6.3"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --watchAll"
   },
